@@ -1,0 +1,135 @@
+body {
+	background-color: #659DBD;
+    font-family: Nunito Sans;
+    max-height: 500px;
+}
+
+#diobrando{
+    text-align:center;
+    padding-top: 130px;
+}
+
+#dupa{
+   	color: white;
+   	font-size: 50px;
+   	margin-top: 0px;
+
+}
+
+#dupaa{
+    color: #659DBD;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+#wyniki{
+    color: #1e2f38;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: white;
+    text-align: right;
+   
+    margin:22%;
+    padding:10px;
+}
+
+#pytania{
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  background-color: #a5d3eb;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  transition-duration: 0.4s;
+}
+
+/*
+button:hover {
+  background-color:white; 
+}
+*/
+
+
+button.ay {
+  background-color: black !important; /* Green */
+  color: white !important;
+  width: 10000px !important;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;  
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: black;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+
+progress {
+    background: grey;
+    border-radius: 20px;
+}
+
+progress {
+  color: black;
+  background: black;
+}
+
+
+
+progress::-webkit-progress-value {
+  border-radius: 20px 0px 0px 20px;
+  background: #659DBD;
+}
+
+
+progress::-webkit-progress-bar {
+  background: #E6A4B4;
+  border-radius: 20px;
+  
+}
+
+.ayo{
+  color:red !important;
+}
+
+span[id = "smoll"]{
+  font-size: 10px !important;
+}
+
+
